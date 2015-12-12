@@ -1,1 +1,1 @@
-light-server
+wd-server

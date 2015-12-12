@@ -1,0 +1,29 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'link' ]
+2 info using npm@2.14.7
+3 info using node@v4.2.2
+4 verbose config Skipping project config: /Users/tick/.npmrc. (matches userconfig)
+5 verbose linkPkg /Users/tick
+6 silly gentlyRm /usr/local/lib/node_modules/tick is being purged
+7 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/tick
+8 verbose stack Error: EACCES: permission denied, symlink '/Users/tick' -> '/usr/local/lib/node_modules/tick'
+8 verbose stack     at Error (native)
+9 verbose cwd /Users/tick/Documents/2.Projects/1.Git/light-server-demo
+10 error Darwin 15.0.0
+11 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "link"
+12 error node v4.2.2
+13 error npm  v2.14.7
+14 error path /Users/tick
+15 error code EACCES
+16 error errno -13
+17 error syscall symlink
+18 error Error: EACCES: permission denied, symlink '/Users/tick' -> '/usr/local/lib/node_modules/tick'
+18 error     at Error (native)
+18 error  { [Error: EACCES: permission denied, symlink '/Users/tick' -> '/usr/local/lib/node_modules/tick']
+18 error   errno: -13,
+18 error   code: 'EACCES',
+18 error   syscall: 'symlink',
+18 error   path: '/Users/tick',
+18 error   dest: '/usr/local/lib/node_modules/tick' }
+19 error Please try running this command again as root/Administrator.
+20 verbose exit [ -13, true ]
