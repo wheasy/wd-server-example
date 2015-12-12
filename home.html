@@ -1,0 +1,15 @@
+<!-- 引用block时，可以指定参数 -->
+<block:layout/c1 css="home">
+    <def:content>
+        <!-- 这里引用了header-menu block -->
+        <block:header-menu home="true" />
+        <p>
+        light-server支持模板、套嵌、继承。</p>
+        <p>
+        本页面引用了 layout/c1，并分别在两个插入点设置了内容。</p>
+        <img src="img/a.jpg" width="300px" alt="">
+    </def>
+    <def:footer>
+        <script src="js/hello.js"></script>
+    </def>
+</block>
