@@ -1,3 +1,1 @@
-setTimeout(function(){
-    alert('Hello world！');
-}, 2000);
+document.getElementById('hello').innerHTML = 'hello wd-server';

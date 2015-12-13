@@ -7,7 +7,14 @@
         wd-server支持模板、套嵌、继承。</p>
         <p>
         本页面引用了 layout/c1，并分别在两个插入点设置了内容。</p>
-        <img src="img/a.jpg" width="300px" alt="">
+
+        <p>
+            以LESS结尾的文件，会自动解析成CSS。LESS文件中的import均为绝对路径，会引用cssLib目录下的文件。
+        </p>
+
+        <div id="hello"></div>
+        
+        <img src="img/a.jpg" width="150px" alt="">
     </def>
     <def:footer>
         <script src="js/hello.js"></script>

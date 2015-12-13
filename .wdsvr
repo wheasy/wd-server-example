@@ -8,7 +8,11 @@
         ".svn", 
         ".npm", 
         "server.sh", 
-        "server.bat”,
-        ".wdsvr"
+        "server.bat",
+        ".gitignore",
+        ".svn",
+        ".wdsvr",
+        "cssLib",
+        "_build"
     ]
 }
