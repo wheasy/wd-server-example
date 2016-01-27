@@ -1,9 +1,9 @@
 {
     "port": 8180,
+    "log": true,
     "ignore": [
         ".DS_Store", 
         "blocks", 
-        "less", 
         ".git", 
         ".svn", 
         ".npm", 
@@ -13,6 +13,27 @@
         ".svn",
         ".wdsvr",
         "cssLib",
-        "_build"
+        "_build",
+        "readme.md",
+        "物料"
+    ],
+    "build_ignore":[
+       "*.html",
+
+        ".DS_Store", 
+        "blocks", 
+        "/less/", 
+        ".git", 
+        ".svn", 
+        ".npm", 
+        "server.sh", 
+        "server.bat",
+        ".gitignore",
+        ".svn",
+        ".wdsvr",
+        "cssLib",
+        "_build",
+        "readme.md",
+        "物料"
     ]
 }
