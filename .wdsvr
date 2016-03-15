@@ -18,8 +18,6 @@
         "物料"
     ],
     "build_ignore":[
-       "*.html",
-
         ".DS_Store", 
         "blocks", 
         "/less/", 
@@ -33,7 +31,6 @@
         ".wdsvr",
         "cssLib",
         "_build",
-        "readme.md",
-        "物料"
+        "readme.md"
     ]
 }

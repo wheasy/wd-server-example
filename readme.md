@@ -44,6 +44,8 @@ wd-server 默认不会显示这三个文件
 $ wd-server build -d ~/project/site -r ~/project/site-build
 ```
 
+发布时，如需要屏蔽部分文件，可在`.wdsvr`中`build_ignore`字段配置，支持字符串和正则
+
 ###.wdsvr 详解
 
 改文件位于站点根目录，JSON格式，可通过它配置服务。
