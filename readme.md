@@ -58,6 +58,19 @@ $ wd-server build -d ~/project/site -r ~/project/site-build
 {
     // 端口号
     "port": 8180,
+    // 是否压缩JS和CSS
+    "comporess": true,
+    // 全局变量
+    "globalData":{
+        // 版本号
+        "ver": "20160325165232"
+    },
+    // 是否使用模块引用，默认为true
+    "enableBlock": false
+    // 自带模板的开始标记，默认是<%
+    "openTag":"<?",
+    // 自带模板的结束标记，默认是%>
+    "closeTag":"?>",
     // 忽略文件，目录索引和发布时会忽略以下文件
     "ignore": [
         ".DS_Store", 
@@ -74,6 +87,12 @@ $ wd-server build -d ~/project/site -r ~/project/site-build
         ......
     }
 }
+```
+
+在配置文件中指定`globalData`后，在页面中可以通过`$g`引用，如：
+
+```
+    <link rel="stylesheet" href="/css/home.css?v=<%$g.ver%>"/>
 ```
 
 如需要指定端口号，可在启动时通过参数`p`指定。
