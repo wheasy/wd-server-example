@@ -1,6 +1,10 @@
 {
     "port": 8180,
+    "compress": true,
     "log": true,
+    "globalData":{
+        "ver":"20160318160008"
+    },
     "ignore": [
         ".DS_Store", 
         "blocks", 
@@ -21,8 +25,8 @@
         ".DS_Store", 
         "blocks", 
         "/less/", 
-        ".git", 
-        ".svn", 
+        ".git^", 
+        ".svn^", 
         ".npm", 
         "server.sh", 
         "server.bat",
